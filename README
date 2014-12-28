@@ -1,0 +1,6 @@
+
+Setup Instructions
+1. Create mysql database and user account.
+2. Place host, dbname, dbuser, and password in the dbconn.php file
+3. Run the db_setup.sql file in the database created in step 1
+4. Copy php and image files to the root of the web directory you want to launch hpttix from

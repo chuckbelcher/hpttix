@@ -1,0 +1,406 @@
+html, body, ul, o1, li, p, h1, h2, h3, h4, h5, h6, form, fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	font-family:Verdana, Arial, Tahoma, sans-serif;
+	text-align: center;
+	font-weight:normal;
+	font-size:100%;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 1.7em;
+	font-weight:normal;
+}
+h2 {
+	font-size: 1.3em;
+	font-weight:normal;
+}
+h3 {
+	font-size: 1.2em;
+	font-weight:normal;
+	text-align: center;
+}
+h4 {
+	font-size: .8em;
+	font-weight:normal;
+}
+h5 {
+	font-size: .7em;
+	font-weight:normal;
+	text-align: left;
+}
+h6 {
+	font-size: .7em;
+	font-weight:normal;
+	text-align: left;
+	color: #CC0000;
+}
+small {
+	font-size: .6em;
+	font-weight:normal;
+}
+
+#wrapper {
+  width:860px;
+	margin: 10px auto;
+}
+
+#banner img {
+	border: none;
+}
+#banner h2 {
+	font-size: 200%;
+	padding-top: 15px;
+}
+#banner h3 {
+	font-size: 150%;
+}
+#banner h1 {
+	color: #CC0000;
+}
+#banner td {
+	font-weight: bold;
+	font-size: .7em;
+}	
+
+#msg h4 {
+	color: #CC0000;
+}
+
+#filters td {
+	font-size: .7em;
+}
+#filters td select {
+	font-size: .9em;
+}
+
+#newList th {
+	font-size: .9em;
+}
+#newList td {
+	font-size: .9em;
+}
+#newList td select{
+	font-size: 1em;
+}
+
+#incList th {
+	font-size: .8em;
+}
+#incList td {
+	font-size: .8em;
+}
+#incList td select{
+	font-size: .9em;
+}
+#incList a {
+	color:#155B27;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#incList a:hover {
+	color:#009933;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#incDet1 {
+	border: 1px solid #155B27;
+}
+#incDet1 img {
+	border: none;
+}
+
+#incDetail th {
+	font-size: .9em;
+}
+#incDetail td {
+	font-size: .9em;
+}
+#incDetail td select{
+	font-size: .9em;
+}
+#incDetail a {
+	color:#155B27;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#incDetail a:hover {
+	color:#009933;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#titles {
+	color:#333366;
+	display: inline;
+	padding-top: 5px;
+}
+#titles ul {
+	list-style-type: none;
+}
+#titles li {
+	padding-top: 15px;
+}
+#titles a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #333366;
+	font-weight: bold;
+}
+#titles a:hover {
+	color: #CC0000;
+	text-decoration: underline;
+	}
+
+#profile {
+	width: 30%;
+	float: left;
+}
+#profile a:link {
+	text-decoration: underline;
+	border: none;
+	color: #155B27;
+	font-weight: bold;
+}
+#profile a:visited {
+	text-decoration: underline;
+	border: none;
+	color: #155B27;
+	font-weight: bold;
+}
+#profile a:hover {
+	text-decoration: underline;
+	border: none;
+	color: #009933;
+	font-weight: bold;
+}
+#profile a:active {
+	text-decoration: underline;
+	border: none;
+	color: #009933;
+	font-weight: bold;
+}
+#profile h5 {
+	text-align: left;
+	font-weight: bold;
+}
+
+#nav {
+	width: 20%;
+	float: right;
+}
+#nav a:link {
+	text-decoration: underline;
+	border: none;
+	color: #155B27;
+	font-weight: bold;
+}
+#nav a:visited {
+	text-decoration: underline;
+	border: none;
+	color: #155B27;
+	font-weight: bold;
+}
+#nav a:hover {
+	text-decoration: underline;
+	border: none;
+	color: #009933;
+	font-weight: bold;
+}
+#nav a:active {
+	text-decoration: underline;
+	border: none;
+	color: #009933;
+	font-weight: bold;
+}
+#nav h5 {
+	text-align: right;
+	font-weight: bold;
+}
+
+td.red {
+	font-weight: bold;
+	font-size: .7em;
+	color: #CC0000;
+}
+
+td.little {
+	font-weight: bold;
+	font-size: .7em;
+}
+
+td.big {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.logintable {
+	margin-right: 20px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+#logindiv p {
+	text-align: left;
+	font-size: .9em;
+}
+#logindiv table {
+	border: 2px solid #155B27;
+}
+#logindiv h4 {
+	text-align: left;
+	padding-left: 10px;
+}
+#maintNavRight {
+	float: left;
+}
+
+#clear {
+	clear: both;
+}
+
+#maintNavRight p  {
+	font-weight: bold;
+}
+#maintNavRight a.roll  {
+	height: 25px;
+	width: 83px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	font-size: .6em;
+	font-weight: bold;
+	background: url("navButton.jpg") 0px 0px no-repeat #ffffff;
+}
+#maintNavRight div.navButton {
+	width: 86px;
+	float: left;
+}
+#maintNavRight div.navButton a.roll:link {
+	background-color:#FFFFFF;
+  background-position: 0px 0px;
+	color: #FFFFFF;
+}
+#maintNavRight div.navButton a.roll:visited {
+  background-color:#FFFFFF;
+	background-position: 0px 0px;
+	color: #FFFFFF;
+}
+#maintNavRight div.navButton a.roll:hover {
+	background-color:#FFFFFF;
+  background-position: 0px -25px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#maintNavRight div.navButton a.roll:active {
+  background-color:#FFFFFF;
+	background-position: 0px -25px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#maintNavRight a.add  {
+	height: 25px;
+	width: 83px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	font-size: .6em;
+	font-weight: bold;
+	background: url("addButton.jpg") 0px 0px no-repeat #ffffff;
+}
+#maintNavRight div.addButton {
+	width: 86px;
+	float: left;
+}
+#maintNavRight div.addButton a.add:link {
+	background-color:#FFFFFF;
+  background-position: 0px 0px;
+	color: #FFFFFF;
+}
+#maintNavRight div.addButton a.add:visited {
+  background-color:#FFFFFF;
+	background-position: 0px 0px;
+	color: #FFFFFF;
+}
+#maintNavRight div.addButton a.add:hover {
+	background-color:#FFFFFF;
+  background-position: 0px -25px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#maintNavRight div.addButton a.add:active {
+  background-color:#FFFFFF;
+	background-position: 0px -25px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#maintNavRight a.bill  {
+	height: 25px;
+	width: 83px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	font-size: .6em;
+	font-weight: bold;
+	background: url("billButton.jpg") 0px 0px no-repeat #ffffff;
+}
+#maintNavRight div.billButton {
+	width: 86px;
+	float: left;
+}
+#maintNavRight div.billButton a.bill:link {
+	background-color:#FFFFFF;
+  background-position: 0px 0px;
+	color: #FFFFFF;
+}
+#maintNavRight div.billButton a.bill:visited {
+  background-color:#FFFFFF;
+	background-position: 0px 0px;
+	color: #FFFFFF;
+}
+#maintNavRight div.billButton a.bill:hover {
+	background-color:#FFFFFF;
+  background-position: 0px -25px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#maintNavRight div.billButton a.bill:active {
+  background-color:#FFFFFF;
+	background-position: 0px -25px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+#footer {
+	width: 100%;
+}
+#footer h5 {
+	text-align: center;
+}
+#footer a{
+	color:#155B27;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#footer a:hover{
+	color:#009933;
+	text-decoration: underline;
+	font-weight: bold;
+}
