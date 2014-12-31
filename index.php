@@ -99,8 +99,8 @@ if (isset($_SESSION['user'])) {
  				print "</div>\n";
  			}
  		}
-		print "<br /><br /><div id=\"footer\"><h5>&copy;2011 <a href=\"http://www.PateoGroup.com\">Pateo Group, Inc.</a> ";
-		print "All Rights Reserved.</h5></div>";
+		print "<br /><br /><div id=\"footer\"><h5>&copy;2014 <a href=\"http://www.HPTSolutions.com\">HPT Solutions, Inc.</a> ";
+		print "Licensed under the Open Software License (OSL 3.0).</h5></div>";
 		print "</div>\n";
   	print "</body>\n";
 
