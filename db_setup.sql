@@ -1,3 +1,9 @@
+--
+--  db_setup.sql is a SQL component of HPTTix
+--  Copyright 2014 John Francis, HPT Solutions, Inc.  
+--  Licensed under the Open Software License (OSL 3.0).
+--
+  
 -- Create hpttix database version 0.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -203,7 +209,8 @@ CREATE TABLE `operators` (
 
 LOCK TABLES `operators` WRITE;
 /*!40000 ALTER TABLE `operators` DISABLE KEYS */;
-INSERT INTO `operators` VALUES (2,'operator','Default Operator','operator@localhost','',1,1,1);
+INSERT INTO `operators` VALUES (2,'operator','Default Operator','operator@localhost','fe96dd39756ac41b74283a9292652d366d73931f',0,1,1);
+INSERT INTO `operators` VALUES (3,'admin','Default Admin','operator@localhost','d033e22ae348aeb5660fc2140aec35850c4da997',1,1,1);
 /*!40000 ALTER TABLE `operators` ENABLE KEYS */;
 UNLOCK TABLES;
 

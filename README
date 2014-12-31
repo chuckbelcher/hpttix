@@ -1,6 +1,18 @@
+//
+//  README is a text component of HPTTix
+//  Copyright 2014 John Francis, HPT Solutions, Inc.  
+//  Licensed under the Open Software License (OSL 3.0).
+//  
 
-Setup Instructions
+Setup Instructions:
 1. Create mysql database and user account.
 2. Place host, dbname, dbuser, and password in the dbconn.php file
 3. Run the db_setup.sql file in the database created in step 1
 4. Copy php and image files to the root of the web directory you want to launch hpttix from
+
+Usage Instructions:
+Default operator id is: operator
+Default operator password is: operator
+
+Default admin id is: admin
+Default admin password is: admin

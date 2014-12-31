@@ -1,4 +1,9 @@
 <?php
+//
+//  mntuser.php is a PHP component of HPTTix
+//  Copyright 2014 John Francis, HPT Solutions, Inc.  
+//  Licensed under the Open Software License (OSL 3.0).
+//  
 function mntuser() {
 	echo "<div id='nav'><h6><a href='index.php'>Main Menu</a> | <a href='logout.php'>Logout</a></h6></div>\n";
 	echo "<br /><br /><h3>Maintain Users</h3><br />";

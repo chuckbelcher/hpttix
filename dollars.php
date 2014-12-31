@@ -1,4 +1,9 @@
 <?php 
+//
+//  dollars.php is a PHP component of HPTTix
+//  Copyright 2014 John Francis, HPT Solutions, Inc.  
+//  Licensed under the Open Software License (OSL 3.0).
+//  
 
 function dollars($inString) {
 	// This function drops everything but numbers and the first decimal point and returns dollars and cents
